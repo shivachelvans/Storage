@@ -1,0 +1,380 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+
+.header {
+   padding-top: 40px;
+   padding-bottom: 30px;
+}
+
+.contact-block {
+  float: right;
+  width: 180px;
+  margin-left: 7px;
+  padding: 5px;
+  background: #f7f6f4;
+  border: 1px solid #e7e7e7;
+  color: #707b6b;
+  font-size: 13px;
+}
+
+.icon-thumb,
+.icon-details {
+  float: left;
+}
+
+
+
+.icon-thumb {
+  padding-top: 5px;
+}
+.icon-thumb.no-padding{
+  padding-top: 0;
+}
+.icon-details {
+  padding-left: 7px;
+}
+.skype-icon .fa-skype {
+ color: #82b01c;
+    font-size: 16px;
+}
+.envelope-icon .fa-envelope {
+ color: #82b01c;
+    font-size: 16px;
+}
+.search-icon .fa-search {
+ color: #ffffff;
+    font-size: 16px;
+}
+
+.contact-block:before,
+.contact-block:after,
+.products__filter-menu:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.menu-container{
+margin-top: 15px;
+}
+.site-menu ul{
+  margin: 0;
+  padding: 0;
+}
+.site-menu li{
+  list-style: none;
+  float: left;
+}
+.site-menu li a{
+  display: block;
+  padding: 10px 23px;
+  color: #3c4b38;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+.site-menu li a:hover {
+  background: #85bb27;
+
+}
+.Search-cart-padding-reset {
+  padding-left: 0;
+}
+.search-bar,
+.search-btn {
+  float: left;
+}
+.search-field{
+  width:168px;
+  border: 1px solid #e0e0e0;
+  padding: 5px 5px 5px 15px;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.search-field::placeholder{
+  color: #bdbdbd;
+}
+.search-btn button{
+  margin-left: 1px;
+  border: none;
+  width:35px;
+  height:33px;
+  background: #82b01c  no-repeat center center;
+}
+.cart-container{
+  float: right;
+  width: 154px;
+  margin-left: 7px;
+  padding: 5px;
+  background: #82b01c;
+  border: 1px solid #e7e7e7;
+  color: #fff;
+  font-size: 14px;
+}
+.banner{
+  position:relative;
+  margin-top:5px;
+}
+.banner-description {
+  position: absolute;
+  top:130px;
+  width: 400px;
+  right:100px;
+  color:white;
+
+}
+.banner-description h1{
+  font-size: 26px;
+  font-weight: bold;
+
+}
+.banner-description h2{
+  font-size: 20px;
+
+}
+.site-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background:#444645;
+  color:#fff;
+  padding:5px 15px;
+  border:none;
+  border-radius: 3px;
+  height:40px;
+  border-top: 1px solid #8f9190;
+}
+
+.content-block{
+  margin:50px 0;
+}
+.content-title .content-title_hd {
+  font-family: "Oswald",sans-serif;
+  font-size: 45PX;
+  border-left: 4px solid #7bad26;
+  padding-left: 10px;
+
+}
+.content-title .content-title_description {
+    font-size:15px;
+    color:#000000;
+}
+
+.products__filter-menu ul{
+  margin: 0;
+  padding:0;
+}
+.products__filter-menu li{
+  list-style: none;
+  float: left;
+  margin: 20px 0;
+}
+.products__filter-menu li a{
+  display: block;
+  background:#585a59;
+  margin-right:3px;
+  padding: 5px 30px;
+  color: #ffffff;
+  font-size:12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.products__filter-menu a.selected{
+    background:#85bb27;
+  }
+
+.products__filter-menu a:hover {
+  background: #85bb27;
+
+}
+.product-card {
+  margin-top: 30px;
+}
+
+.product-offer {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.product-offer__label {
+  display: block;
+  width: 62px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.product-offer__label.new {
+  display: block;
+  background: #71a914;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.product-offer__label.discount {
+  background: #c72928;
+}
+
+.product-price-tag {
+  position: absolute;
+  background: #a8bf00;
+  color: #65695a;
+  border-radius: 90px;
+  right: -3px;
+  bottom: -5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+.product-price-tag .price{
+  display:table-cell;
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+  text-align: center;
+}
+.discounted-price{
+  text-decoration: line-through;
+}
+.product-price-small{
+  font-size: 12px;
+
+}
+.current-price{
+  color:#fff;
+}
+.product-thumb{
+  position:relative;
+}
+.product-review{
+  text-align: center;
+  margin: 20px 0 5px 0 ;
+}
+.product-review .fa-star {
+  color: #d1d1d1;
+}
+.product-review .fa-star.checked {
+  color: #d2d31d;}
+
+.product-name{
+  text-align: center;
+    color: #646579;
+}
+.product__list {
+  margin-bottom: 60px;
+}
+.add-to-cart{
+    text-align: center;
+
+}
+.add-to-cart.site-btn{
+  background:#595b5a;
+  margin-top:10px;
+}
+.add-to-cart button{
+    text-transform: uppercase;
+    margin-top:10px;
+}
+    .rightarticle{
+      margin: 20px 50px;
+    }
+
+    .bethefirst{
+      width: 250px;
+      text-align: center;
+      color: #464543;
+      border: 2px solid #fafafa;
+      font-size: 20px;
+      padding-top: 25px;
+      border-radius: 5px;
+    }
+    .emailaddress{
+        width: 180px;
+        height: 30px;
+        margin-left: 30px;
+        padding: 2px;
+        background: #fafafa;
+        border: 1px solid #e0e0e0;
+        color: #a0a4a5;
+        font-size: 13px;
+      }
+    .button1{
+      margin-top: 20px;
+    }
+    .submitbutton{
+      width: 100px;
+      height: 40px;
+      background: #7bae23;
+      color: #fffeed;
+      font-size: 14px;
+      text-align: center;
+      padding: 3px;
+    }
+    .testimonials{
+    margin: 20px 0;
+  font-weight:bold;
+  font-size: 20px;
+  }
+  .pagination a{
+      color: #a5a5a5;
+      padding: 1px 12px;
+      text-decoration: none;
+      border: 1px solid #dfdfdf;
+      background: #fafafa;
+       position:relative;
+        float:left;
+        display: block;
+        margin: 20px 1px ;
+      left: 80px;
+      border-radius: 3px;
+       }
+         .latestnews{
+       margin-top: 20px;
+     font-weight:bold;
+     font-size: 20px;
+     }
+    .coolstyle{
+      border: 1px solid #e0e0e0;
+      background: #f6f6f6;
+      width: 250px;
+      padding: 25px;
+      font-size: 25px;
+      font-weight: bold;
+      color: #768187;
+      border-radius: 5px;
+    }
+    .iconimage{
+      margin: 20px 0 ;
+      height: 80px;
+    }
+    .icontext{
+      color: #000000;
+      padding: 1px 12px;
+       position:absolute;
+        float:left;
+      margin-top: 20px;
+
+      left:-15px;}
+
+      .jaketext{
+      color: #9eb90a;
+      font-size: 15px;
+      padding-top: 0px;
+    }
+    .latestnews{
+      margin-left: 15px;
+    }
+    .laptopimage{
+      width:300px;
+    height:180px;
+    margin-left: 50px;
+    }
