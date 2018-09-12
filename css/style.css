@@ -25,15 +25,22 @@ img {
 }
 
 .contact-block {
-  float: right;
+  margin: 10px auto;
   width: 180px;
-  margin-left: 7px;
   padding: 5px;
   background: #f7f6f4;
   border: 1px solid #e7e7e7;
   color: #707b6b;
   font-size: 13px;
 }
+
+@media only screen and (min-width: 768px) {
+  .contact-block {
+    float: right;
+    margin-left: 7px;
+  }
+}
+
 
 .icon-thumb,
 .icon-details {
