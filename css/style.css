@@ -327,18 +327,18 @@ img {
   font-weight: bold;
   font-size: 20px;
 }
-.pagination a {
+.pagination {
   color: #a5a5a5;
-  padding: 1px 12px;
+  padding: 1px 9px;
   text-decoration: none;
-  border: 1px solid #dfdfdf;
   background: #fafafa;
   position: relative;
   float: left;
   display: block;
-  margin: 20px 1px;
+  margin: 20px -17px;
   left: 80px;
   border-radius: 3px;
+  border: 1px solid #dcdcdc;
 }
 .latestnews {
   margin-top: 20px;
