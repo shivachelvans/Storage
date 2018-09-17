@@ -161,7 +161,7 @@ img {
   text-align: center;
 }
 
-.add-to-cart .site-btn {
+.site-btn {
   margin-top: 20px;
   cursor: pointer;
   background: #444645;
@@ -171,6 +171,13 @@ img {
   border-radius: 3px;
   height: 40px;
   border-top: 1px solid #8f9190;
+}
+
+.site-btn-secondary {
+  margin-top: none;
+  background: #7eaf22;
+  font-size: 14px;
+  width: 90px;
 }
 
 .add-to-cart button {
