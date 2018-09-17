@@ -28,49 +28,48 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .products__filter-menu {
-  padding:2px 2px;
-  margin: 2px 2px;
-  line-height: 1.5;
-  display: block;
-      }
+    padding: 2px 2px;
+    margin: 2px 2px;
+    line-height: 1.5;
+    display: block;
+  }
 }
 @media only screen and (min-width: 320px) {
   .products__filter-menu {
-  line-height: 1.0;
-      }
+    line-height: 1;
+  }
 }
 @media only screen and (min-width: 1200px) {
-  .products__filter-menu li  {
+  .products__filter-menu li {
     margin: 20px 0;
-    line-height: 2.0;
-      }
+    line-height: 2;
+  }
 }
-.products__filter-menu ul{
+.products__filter-menu ul {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
-.products__filter-menu li{
+.products__filter-menu li {
   list-style: none;
   float: left;
-  margin:5px 0;
+  margin: 5px 0;
 }
-.products__filter-menu li a{
+.products__filter-menu li a {
   display: block;
-  background:#585a59;
-  margin-right:3px;
+  background: #585a59;
+  margin-right: 3px;
   padding: 5px 30px;
   color: #ffffff;
-  font-size:12px;
+  font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
 }
-.products__filter-menu a.selected{
-    background:#85bb27;
-  }
+.products__filter-menu a.selected {
+  background: #85bb27;
+}
 
 .products__filter-menu a:hover {
   background: #85bb27;
-
 }
 .product-card {
   margin-top: 30px;
@@ -153,24 +152,30 @@ img {
   margin-bottom: 60px;
 }
 @media only screen and (min-width: 768px) {
-.add-to-cart {
-font-size: 15px;
-      }
+  .add-to-cart {
+    font-size: 15px;
+  }
 }
 
 .add-to-cart {
   text-align: center;
 }
-.add-to-cart.site-btn {
-  background: #595b5a;
-  margin-top: 10px;
+
+.add-to-cart .site-btn {
+  margin-top: 20px;
+  cursor: pointer;
+  background: #444645;
+  color: #fff;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  border-top: 1px solid #8f9190;
 }
+
 .add-to-cart button {
   text-transform: uppercase;
   margin-top: 10px;
-}
-.rightarticle {
-  /* margin: 20px 50px; */
 }
 
 .bethefirst {
@@ -182,32 +187,30 @@ font-size: 15px;
   padding-top: 25px;
   border-radius: 5px;
 }
-@media only screen and (min-width:375px) {
+@media only screen and (min-width: 375px) {
   .bethefirst {
-  margin-left: 30px;
+    margin-left: 30px;
   }
 }
-@media only screen and (min-width:568px) {
+@media only screen and (min-width: 568px) {
   .bethefirst {
-  margin-left: 120px;
-  }
-}
-
-
-@media only screen and (min-width:768px) {
-  .bethefirst {
-  width: 250px;
-  margin-left: 0px;
+    margin-left: 120px;
   }
 }
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width: 768px) {
   .bethefirst {
-  width: 250px;
-  margin-left: auto;
+    width: 250px;
+    margin-left: 0px;
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  .bethefirst {
+    width: 250px;
+    margin-left: auto;
+  }
+}
 
 .emailaddress {
   width: 180px;
@@ -240,7 +243,7 @@ font-size: 15px;
 
 @media only screen and (min-width: 768px) {
   .testimonials {
-  text-align: none;
+    text-align: none;
   }
 }
 
@@ -258,24 +261,23 @@ font-size: 15px;
   border: 1px solid #dcdcdc;
 }
 
-@media only screen and (min-width:375px) {
+@media only screen and (min-width: 375px) {
   .pagination a {
-  left: 120px;
+    left: 120px;
   }
 }
 @media only screen and (min-width: 568px) {
   .pagination a {
-  left: 220px;
+    left: 220px;
   }
 }
 @media only screen and (min-width: 768px) {
   .pagination a {
-  left: 45px;
+    left: 45px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .pagination a {
-
   }
 }
 .latestnews {
@@ -286,8 +288,8 @@ font-size: 15px;
 }
 @media only screen and (min-width: 768px) {
   .latestnews {
-  text-align: none;
-  margin: 20px 0 0 10px;
+    text-align: none;
+    margin: 20px 0 0 10px;
   }
 }
 .coolstyle {
@@ -300,51 +302,51 @@ font-size: 15px;
   color: #768187;
   border-radius: 5px;
 }
-@media only screen and (min-width:375px) {
+@media only screen and (min-width: 375px) {
   .coolstyle {
-  margin-left: 30px;
+    margin-left: 30px;
   }
 }
-@media only screen and (min-width:568px) {
+@media only screen and (min-width: 568px) {
   .coolstyle {
-  margin-left: 120px;
+    margin-left: 120px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .coolstyle {
-  width: 250px;
-  margin-left: auto;
+    width: 250px;
+    margin-left: auto;
   }
 }
 @media only screen and (min-width: 1200px) {
   .coolstyle {
-  width: 250px;
-  margin-left: auto;
+    width: 250px;
+    margin-left: auto;
   }
 }
 .iconimage {
   margin: 50px 0px;
   height: 80px;
 }
-@media only screen and (min-width:375px) {
+@media only screen and (min-width: 375px) {
   .iconimage {
-  margin-left: 30px;
+    margin-left: 30px;
   }
 }
 @media only screen and (min-width: 568px) {
   .iconimage {
-  margin-left: 120px;
+    margin-left: 120px;
   }
 }
 @media only screen and (min-width: 768px) {
   .iconimage {
-  margin-left: auto;
+    margin-left: auto;
   }
 }
 @media only screen and (min-width: 1200px) {
   .iconimage {
-  margin-left: auto;
+    margin-left: auto;
   }
 }
 .icontext {
@@ -352,11 +354,10 @@ font-size: 15px;
   float: right;
   margin-top: -120px;
   margin-right: 50px;
-
 }
 @media only screen and (min-width: 568px) {
   .icontext {
-  left:-120px;
+    left: -120px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -371,48 +372,43 @@ font-size: 15px;
 
 @media only screen and (min-width: 1200px) {
   .icontext {
-
     left: -55px;
   }
 }
 .laptopimage {
-
 }
-@media only screen and (min-width:375px) {
+@media only screen and (min-width: 375px) {
   .laptopimage {
-  margin-left: 20px;
+    margin-left: 20px;
   }
 }
-@media only screen and (min-width:568px) {
+@media only screen and (min-width: 568px) {
   .laptopimage {
-  margin-left: 120px;
-
+    margin-left: 120px;
   }
 }
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
   .laptopimage {
-  margin-left: 0px;
+    margin-left: 0px;
 
-  height: 90px;
-
+    height: 90px;
   }
 }
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width: 1200px) {
   .laptopimage {
-  width: 250px;
-  margin-left: auto;
+    width: 250px;
+    margin-left: auto;
   }
 }
-
 
 /***** header hamburger menu added by Arun *****/
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    .venedor-logo {
-      text-align: center;
-    }
+  .venedor-logo {
+    text-align: center;
   }
+}
 
-@media only screen and (max-width: 736px){
+@media only screen and (max-width: 736px) {
   .contact-block {
     display: none;
   }
@@ -425,10 +421,10 @@ font-size: 15px;
 }
 
 @media only screen and (max-width: 812px) {
-    .contact-block {
-     margin-top: 5px;
-    }
+  .contact-block {
+    margin-top: 5px;
   }
+}
 
 .contact-block {
   float: right;
@@ -467,15 +463,15 @@ font-size: 15px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    .mobile-view-menu {
-      font-weight: bold;
-      margin-top: 2px;
-      color: ##494940;
-      font:700 20px/38px 'PT Sans',sans-serif;
-    }
+  .mobile-view-menu {
+    font-weight: bold;
+    margin-top: 2px;
+    color: ##494940;
+    font: 700 20px/38px "PT Sans", sans-serif;
   }
+}
 
-@media only screen and (min-device-width: 1024px)and (max-device-width: 1900px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1900px) {
   .mobile-view-menu {
     display: none;
   }
@@ -548,21 +544,19 @@ font-size: 15px;
   }
 }
 
- a {
-    color:#464c66;
-    text-decoration: none;
-  }
-  .menu ul {
-    margin:6px;
-    padding:0;
-  }
+a {
+  color: #464c66;
+  text-decoration: none;
+}
+.menu ul {
+  margin: 6px;
+  padding: 0;
+}
 
-.menu a:hover{
-    color:#fff;
-    text-decoration: none;
-
-  }
-
+.menu a:hover {
+  color: #fff;
+  text-decoration: none;
+}
 
 .search-bar,
 .search-btn {
@@ -601,31 +595,29 @@ font-size: 15px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    .search-cart-padding-reset {
-      padding-left: 0px;
-    }
+  .search-cart-padding-reset {
+    padding-left: 0px;
   }
+}
 
 @media only screen and (min-width: 1024px) {
-    .search-cart-padding-reset {
-      padding-left: 19px;
-    }
+  .search-cart-padding-reset {
+    padding-left: 19px;
   }
+}
 
 @media only screen and (min-width: 1200px) {
-    .search-cart-padding-reset {
-      padding-left: 95px;
-    }
+  .search-cart-padding-reset {
+    padding-left: 95px;
   }
+}
 
 @media only screen and (max-width: 812px) {
-    .search-cart-padding-reset {
-      padding-left: 81px;
-      margin-top: 5px;
-    }
+  .search-cart-padding-reset {
+    padding-left: 81px;
+    margin-top: 5px;
   }
-
-
+}
 
 .banner {
   margin-top: 15px;
@@ -637,16 +629,15 @@ font-size: 15px;
   margin-left: 850px;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .banner-content {
     display: none;
   }
 }
 
-
 .banner-content h1 {
   color: black;
-  text-shadow: 2px 2px 10px #C0C0C0;
+  text-shadow: 2px 2px 10px #c0c0c0;
   font-size: 27px;
 }
 
@@ -667,18 +658,18 @@ font-size: 15px;
   background: black center;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .product-price-tag1 {
     display: none;
   }
 }
 
 @media only screen and (min-width: 1200px) {
-    .product-price-tag1 {
-      margin-bottom: 450px;
-      margin-right: 60px;
-     }
+  .product-price-tag1 {
+    margin-bottom: 450px;
+    margin-right: 60px;
   }
+}
 
 .product-price-tag1 {
   position: absolute;
