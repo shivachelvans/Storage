@@ -373,7 +373,6 @@ img {
   color: #a5a5a5;
   padding: 1px 10px;
   text-decoration: none;
-  border: 1px solid #dfdfdf;
   background: #fafafa;
   position: relative;
   float: left;
@@ -381,7 +380,9 @@ img {
   margin: 20px 1px;
   left: 95px;
   border-radius: 3px;
+  border: 1px solid #dcdcdc;
 }
+
 @media only screen and (min-width:375px) {
   .pagination a {
   left: 120px;
